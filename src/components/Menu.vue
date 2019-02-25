@@ -15,7 +15,7 @@
 export default {
     data(){
         return {
-            list: ['Inicio','Nosotros','Servicios','Contacto']
+            list: ['Inicio','Experiencias','Comunidad','Contacto']
         }
     }
 }
@@ -23,7 +23,10 @@ export default {
 
 <style scoped>
 .container-menu {
-    background-color: #7a1ea1;
+    background-color: rgb(1, 109, 174);
+    /* position: relative;
+    z-index: 1; */
+    color: white;
 }
 .menu {
     max-width: 1000px;
@@ -37,7 +40,6 @@ export default {
 .link-menu {
     list-style: none;
     cursor: pointer;
-    color: #fff;
 }
 .link-menu:hover{
     font-weight: 600;
@@ -48,7 +50,6 @@ export default {
     justify-content: space-between;
 }
 .logo {
-    color: #fff;
     font-weight: 600;
 }
 </style>
