@@ -1,7 +1,14 @@
 <template>
   <div id="app">
     <div>
-      
+      <HelloWorld msg="Carabolo LP is"/>
+      <HelloWorld msg="The best solution for you"/>
+      <blockquote>
+        Efficienty unleash cross-media information without cross-media value.</br>
+        Quickly maximize timely deliverables for real-time schemas. Dramatically </br>
+        maintain clicks-and-mortar solutions without functional solutions.
+      </blockquote>
+      <button type="button">DOWNLOAD APP</button>
     </div>
   </div>
 </template>
