@@ -4,7 +4,15 @@
         <div class="logo">EXPERIENCIAS</div>
         <nav class="nav">
             <ul class="list-menu">
-                <li class="link-menu" v-for="(item, index) in list" :key="index">{{item}}</li>
+                <!-- <li class="link-menu" v-for="(item, index) in list" :key="index">{{item}}</li> -->
+                <li class="link-menu" v-scroll-to="'#home'">Inicio</li>
+                <li class="link-menu" v-scroll-to="'#experiences'">Experiencias</li>
+                <li class="link-menu" v-scroll-to="'#'">Comunidad</li>
+                <li class="link-menu" v-scroll-to="'#'">Contacto</li>
+                <!-- <router-link to="/">Inicio</router-link>
+                <router-link to="/experiencias">Experiencias</router-link> -->
+                <!-- <router-link to="/foo">Go to Foo</router-link>
+                <router-link to="/foo">Go to Foo</router-link> -->
             </ul>
         </nav>
     </div>
@@ -23,9 +31,11 @@ export default {
 
 <style scoped>
 .container-menu {
-    background-color: rgb(1, 109, 174);
-    /* position: relative;
-    z-index: 1; */
+    background-color: rgba(0,0,0,.1);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
     color: white;
 }
 .menu {
