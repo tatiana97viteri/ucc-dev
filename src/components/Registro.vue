@@ -10,10 +10,10 @@
                                 <el-input v-model="form.name"></el-input>
                             </el-form-item>
                             <el-form-item label="Correo">
-                                <el-input v-model="form.name"></el-input>
+                                <el-input v-model="form.mail"></el-input>
                             </el-form-item>
                             <el-form-item label="Contraseña">
-                                <el-input type="passwords" v-model="form.name"></el-input>
+                                <el-input type="passwords" v-model="form.password"></el-input>
                             </el-form-item>
                             <el-form-item>
                                 <el-button type="primary" @click="submitForm('ruleForm2')">Submit</el-button>
@@ -32,19 +32,23 @@ export default {
       return {
         form: {
           name: '',
-          region: '',
-          date1: '',
-          date2: '',
-          delivery: false,
-          type: [],
-          resource: '',
-          desc: ''
+          mail:'',
+          password:''
         }
       }
     },
     methods: {
-      onSubmit() {
-        console.log('submit!');
+      submitForm() {
+          const data = JSON.stringify ({name: this.form.name, mail: this.form.mail,password: this.form.password});
+          const datos="name="+this.form.name;
+          let options = {
+            method: 'POST',
+            headers: {
+            'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ 'name': this.form.name,'mail':this.form.mail, 'password':this.form.password})
+            }
+        fetch("http://localhost/experiences/registro.php",options ).then(d => d.text()).then(d => { alert(d) });
       }
     }
     

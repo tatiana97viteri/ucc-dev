@@ -7,6 +7,7 @@
                 <el-col :span="6"> <img src="../assets/adventure.jpg"></el-col>
                 <el-col :span="6"> <img src="../assets/adventure.jpg"></el-col>
             </el-row>
+            
         </section>
     </div>
 </template>
