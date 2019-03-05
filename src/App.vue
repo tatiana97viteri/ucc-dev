@@ -2,12 +2,13 @@
   <div id="app">
       <Menu/>
       <HelloWorld/>
-      <Experience/>
+      <Experience/>    
       <Registro/>
-      
+
   </div>
 </template>
 <script>
+
 import HelloWorld from './components/HelloWorld.vue'
 import Menu from './components/Menu.vue'
 import Registro from './components/Registro.vue'

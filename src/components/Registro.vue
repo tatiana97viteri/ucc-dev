@@ -3,7 +3,7 @@
         
         <section id="registrar">
             <el-row :gutter="20">
-                <el-col :span="12" class="formExperience">
+                <el-col :span="12" :offset="6" class="formExperience">
                         <el-form  ref="form" :model="form" label-width="100px">
                             <h1>Regístrate</h1>
                             <el-form-item label="Nombres">
