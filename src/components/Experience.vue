@@ -112,7 +112,6 @@ export default {
     justify-content: center;
     position: absolute;
     top: 35%;
-    /* left: 15%; */
     align-content: center;
     background: whitesmoke;
     opacity: 0.5;
