@@ -29,7 +29,7 @@ export default {
     position: relative;
     width: 100%;
     height: 200px;
-    background: black;
+    background: #009688;
     }
     img{
         width: 60px;
