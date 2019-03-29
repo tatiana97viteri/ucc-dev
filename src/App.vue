@@ -2,7 +2,8 @@
   <div id="app">
       <Menu/>
       <HelloWorld/>
-      <Experience/>    
+      <Experience/> 
+      <Carousel/>   
       <Registro/>
       <Footers/>
 
@@ -15,6 +16,8 @@ import Menu from './components/Menu.vue'
 import Registro from './components/Registro.vue'
 import Experience from './components/Experience.vue'
 import Footers from './components/Footers.vue'
+import Carousel from './components/Carousel.vue'
+
 
 export default {
   name: 'app',
@@ -23,7 +26,8 @@ export default {
     Menu,
     Registro,
     Experience,
-    Footers
+    Footers,
+    Carousel
   }
 }
 </script>

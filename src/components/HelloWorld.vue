@@ -8,7 +8,7 @@
     <section id="home">
         <div class="container">
           <div class="row">
-            <img src="https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"  alt="home img">
+            <img src="https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"  alt="home img" >
           </div>
           <div class="title">
             <p>Este es un buen día para</p>

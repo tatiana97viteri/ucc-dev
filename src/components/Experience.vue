@@ -12,7 +12,7 @@
                 <img slot="reference" src="https://images.pexels.com/photos/342111/pexels-photo-342111.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
               </el-popover> -->
               <img @mouseover="show = true" @mouseleave="show = false" src="https://images.pexels.com/photos/342111/pexels-photo-342111.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-              <div class="mensaje" v-if="show"> <span >Parque temáticos <br> Deportes extremos</span> </div>
+              <div class="mensaje" v-if="show"> <span>Parque temáticos <br> Deportes extremos</span> </div>
             </el-col>
             <el-col :span="8"> 
               <!-- <el-popover
