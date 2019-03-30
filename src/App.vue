@@ -2,10 +2,10 @@
   <div id="app">
       <Menu/>
       <HelloWorld/>
-      <Experience/> 
+      <!-- <Experience/> 
       <Carousel/>   
       <Registro/>
-      <Footers/>
+      <Footers/> -->
 
   </div>
 </template>

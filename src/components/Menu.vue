@@ -58,8 +58,10 @@ export default {
     width: 350px;
     display: flex;
     justify-content: space-between;
+    font-size: larger;
 }
 .logo {
     font-weight: 600;
+    font-size: large;
 }
 </style>
