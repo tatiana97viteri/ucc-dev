@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-flex xs12 class="hello">
+    <!-- <v-flex xs12 class="hello"> -->
       <section id="home">
           <div class="container">
             <div class="row">
@@ -14,7 +14,7 @@
             </div>
           </div>
       </section>
-    </v-flex>
+    <!-- </v-flex> -->
   </div>
 </template>
 
@@ -32,6 +32,7 @@
 <style scoped>
 .container{
   position: relative;
+  max-width: 100%;
   width: 100%;
   color: white;
   margin: 0%;
@@ -40,11 +41,12 @@
 img{
   width: 100%;
   object-fit: cover;
-  height: 600px;
+  height: 100%;
   margin: 0%;
 }
 .home{
   margin: 0;
+  width: 100%;
 }
 .title{
     position: absolute;
@@ -61,8 +63,8 @@ img{
   padding: 0%;
   margin: 0%;
 }
-/* .row{
+.row{
   width: 100%;
   height: 600px;
-} */
+}
 </style>
