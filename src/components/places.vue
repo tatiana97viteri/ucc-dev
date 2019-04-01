@@ -3,35 +3,143 @@
         <div class="wraper left">
             <div class="content">
                 <div class="item item1">
-                    <p class="title-center">NOMBRE</p>
-                    <img src="https://images.pexels.com/photos/342111/pexels-photo-342111.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    <v-hover>
+                        <v-img
+                            slot-scope="{ hover }"
+                            class="mx-auto"
+                            color="grey lighten-4"
+                            max-width="600" 
+                            style="border-radius: 5px;"
+                            src="https://images.pexels.com/photos/342111/pexels-photo-342111.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""
+                        >
+                            <v-expand-transition>
+                                <div
+                                    v-if="hover"
+                                    class="d-flex transition-fast-in-fast-out v-card--reveal display-3 white--text font-weight-light title mb-2"
+                                    style="height: 100%;"
+                                >
+                                    Parques temáticos <br> Deportes extremos
+                                </div>
+                            </v-expand-transition>
+                        </v-img>
+                    </v-hover>   
                 </div>
                 <div class="item item2">
-                    <p class="title-center">NOMBRE</p>
-                    <img src="https://images.pexels.com/photos/2232/vegetables-italian-pizza-restaurant.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                     <v-hover>
+                        <v-img
+                            slot-scope="{ hover }"
+                            class="mx-auto"
+                            color="grey lighten-4"
+                            max-width="600" 
+                            style="border-radius: 5px;"
+                            src="https://images.pexels.com/photos/2232/vegetables-italian-pizza-restaurant.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""
+                        >
+                            <v-expand-transition>
+                                <div
+                                    v-if="hover"
+                                    class="d-flex transition-fast-in-fast-out v-card--reveal display-3 white--text font-weight-light title mb-2"
+                                    style="height: 100%;"
+                                >
+                                    Restaurantes - Bares <br> Centros comerciales
+                                </div>
+                            </v-expand-transition>
+                        </v-img>
+                    </v-hover>
                 </div>
             </div>
             <div class="item item3">
-                <p class="title-center">NOMBRE</p>
-                <img src="https://images.pexels.com/photos/696295/pexels-photo-696295.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <v-hover>
+                    <v-img
+                        slot-scope="{ hover }"
+                        class="mx-auto"
+                        color="grey lighten-4"
+                        max-width="600" 
+                        style="border-radius: 5px;"
+                        src="https://images.pexels.com/photos/696295/pexels-photo-696295.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""
+                    >
+                        <v-expand-transition>
+                            <div
+                                v-if="hover"
+                                class="d-flex transition-fast-in-fast-out v-card--reveal display-3 white--text font-weight-light title mb-2"
+                                style="height: 100%;"
+                            >
+                                Santuarios <br> Sitios culturales
+                            </div>
+                        </v-expand-transition>
+                    </v-img>
+                </v-hover>
             </div>
         </div>
         <div class="wraper right">
-            <div class="item item3">
-                <p class="title-center">NOMBRE</p>
-                <img src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-            </div>
             <div class="content">
                 <div class="item item1">
-                    <p class="title-center">NOMBRE</p>
-                    <img src="https://images.pexels.com/photos/1839919/pexels-photo-1839919.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    <v-hover>
+                        <v-img
+                            slot-scope="{ hover }"
+                            class="mx-auto"
+                            color="grey lighten-4"
+                            max-width="600" 
+                            style="border-radius: 5px;"
+                            src="https://images.pexels.com/photos/1839919/pexels-photo-1839919.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""
+                        >
+                            <v-expand-transition>
+                                <div
+                                    v-if="hover"
+                                    class="d-flex transition-fast-in-fast-out v-card--reveal display-3 white--text font-weight-light title mb-2"
+                                    style="height: 100%;"
+                                >
+                                    Museos <br> Galerias
+                                </div>
+                            </v-expand-transition>
+                        </v-img>
+                    </v-hover>
                 </div>
                 <div class="item item2">
-                    <p class="title-center">NOMBRE</p>
-                    <img src="https://images.pexels.com/photos/295168/pexels-photo-295168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    <v-hover>
+                        <v-img
+                            slot-scope="{ hover }"
+                            class="mx-auto"
+                            color="grey lighten-4"
+                            max-width="600" 
+                            style="border-radius: 5px;"
+                            src="https://images.pexels.com/photos/295168/pexels-photo-295168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""
+                        >
+                            <v-expand-transition>
+                                <div
+                                    v-if="hover"
+                                    class="d-flex transition-fast-in-fast-out v-card--reveal display-3 white--text font-weight-light title mb-2"
+                                    style="height: 100%;"
+                                >
+                                    Reservas naturales <br> Resguardos indígenas
+                                </div>
+                            </v-expand-transition>
+                        </v-img>
+                    </v-hover>
                 </div>
+                
             </div>
-            
+            <div class="item item3">
+                <v-hover>
+                    <v-img
+                        slot-scope="{ hover }"
+                        class="mx-auto"
+                        color="grey lighten-4"
+                        max-width="600" 
+                        style="border-radius: 5px;"
+                        src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""
+                    >
+                        <v-expand-transition>
+                            <div
+                                v-if="hover"
+                                class="d-flex transition-fast-in-fast-out v-card--reveal display-3 white--text font-weight-light title mb-2"
+                                style="height: 100%;"
+                            >
+                                Hospedajes <br> Alquileres de transporte
+                            </div>
+                        </v-expand-transition>
+                    </v-img>
+                </v-hover>
+            </div>
         </div>
     </div>
 </template>
@@ -55,7 +163,7 @@ export default {
         width: 50%;
         height: 400px;
         display: flex;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         flex-direction: column;
     }
     .left{
@@ -67,10 +175,11 @@ export default {
     .content{
         flex: 1;
         display: flex;
+        height: 50%;
     }
     .item3{
         background: violet;
-        height: 50%;;
+        height: 50%;
     }
     .item{
         flex: 1;
@@ -85,6 +194,7 @@ export default {
     }
     .item1{
         background: orange;
+        font-size: 10px;
     }
     .item2{
         background: orangered;
@@ -112,5 +222,15 @@ export default {
         .wraper{
             width: 100%;
         }
+    }
+    .v-card--reveal {
+    align-items: center;
+    bottom: 0;
+    justify-content: center;
+    opacity: .8;
+    position: absolute;
+    width: 100%;
+    font-size: 15px;
+     background: rgb(196, 188, 188);
     }
 </style>
