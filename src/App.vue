@@ -2,6 +2,7 @@
   <div id="app">
       <Menu/>
       <HelloWorld/>
+      <places />
       <!-- <Experience/> 
       <Carousel/>   
       <Registro/>
@@ -17,6 +18,7 @@ import Registro from './components/Registro.vue'
 import Experience from './components/Experience.vue'
 import Footers from './components/Footers.vue'
 import Carousel from './components/Carousel.vue'
+import Places from './components/places.vue'
 
 
 export default {
@@ -27,7 +29,8 @@ export default {
     Registro,
     Experience,
     Footers,
-    Carousel
+    Carousel,
+    Places
   }
 }
 </script>
