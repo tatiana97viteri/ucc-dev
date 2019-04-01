@@ -26,10 +26,11 @@ export default {
 
 <style scoped>
     .footer{
-    position: relative;
-    width: 100%;
-    height: 200px;
-    background: #009688;
+        justify-content: flex-end;
+        position: relative;
+        width: 100%;
+        height: 200px;
+        background: #009688;
     }
     img{
         width: 60px;

@@ -157,7 +157,7 @@ export default {
         display: flex;
         box-sizing: border-box;
         padding: 50px;
-        margin-top: 10px;
+        margin: 5px;
     }
     .wraper{
         width: 50%;

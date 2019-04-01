@@ -3,10 +3,10 @@
       <Menu/>
       <HelloWorld/>
       <places />
-      <!-- <Experience/> 
-      <Carousel/>   
-      <Registro/>
-      <Footers/> -->
+      <!-- <Experience/>  -->
+      <!-- <Carousel/>   
+      <Registro/> -->
+      <Footers/>
 
   </div>
 </template>
