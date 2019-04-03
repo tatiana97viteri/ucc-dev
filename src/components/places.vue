@@ -51,7 +51,7 @@
                 <v-hover>
                     <v-img
                         slot-scope="{ hover }"
-                        class="mx-auto"
+                        class="mx-auto img"
                         color="grey lighten-4"
                         max-width="600" 
                         style="border-radius: 5px;"
@@ -71,6 +71,27 @@
             </div>
         </div>
         <div class="wraper right">
+            <div class="item item3">
+                <v-hover>
+                    <v-img
+                        slot-scope="{ hover }"
+                        class="mx-auto img"
+                        color="grey lighten-4"
+                        style="border-radius: 5px;"
+                        src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""
+                    >
+                        <v-expand-transition>
+                            <div
+                                v-if="hover"
+                                class="d-flex transition-fast-in-fast-out v-card--reveal display-3 white--text font-weight-light title mb-2"
+                                style="height: 100%;"
+                            >
+                                Hospedajes <br> Alquileres de transporte
+                            </div>
+                        </v-expand-transition>
+                    </v-img>
+                </v-hover>
+            </div>
             <div class="content">
                 <div class="item item1">
                     <v-hover>
@@ -118,28 +139,6 @@
                 </div>
                 
             </div>
-            <div class="item item3">
-                <v-hover>
-                    <v-img
-                        slot-scope="{ hover }"
-                        class="mx-auto"
-                        color="grey lighten-4"
-                        max-width="600" 
-                        style="border-radius: 5px;"
-                        src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""
-                    >
-                        <v-expand-transition>
-                            <div
-                                v-if="hover"
-                                class="d-flex transition-fast-in-fast-out v-card--reveal display-3 white--text font-weight-light title mb-2"
-                                style="height: 100%;"
-                            >
-                                Hospedajes <br> Alquileres de transporte
-                            </div>
-                        </v-expand-transition>
-                    </v-img>
-                </v-hover>
-            </div>
         </div>
     </div>
 </template>
@@ -163,7 +162,6 @@ export default {
         width: 50%;
         height: 400px;
         display: flex;
-        /* flex-wrap: wrap; */
         flex-direction: column;
     }
     .left{
@@ -175,7 +173,7 @@ export default {
     .content{
         flex: 1;
         display: flex;
-        height: 50%;
+        height: 100%;
     }
     .item3{
         background: violet;
@@ -193,13 +191,9 @@ export default {
         transform: translateY(-5px);
     }
     .item1{
-        background: orange;
         font-size: 10px;
     }
-    .item2{
-        background: orangered;
-    }
-    img{
+    .img{
         width: 100%;
         height: 100%;
         object-fit: cover;

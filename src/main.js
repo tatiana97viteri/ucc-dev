@@ -9,6 +9,8 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
+import Vuelidate from 'vuelidate'
+import 'vuelidate/dist/vuelidate.min.js'
 
 
 library.add(faCoffee)
@@ -19,7 +21,10 @@ Vue.config.productionTip = false
 
 Vue.use(VueScrollTo);
 Vue.use(ElementUI);
-Vue.use(Vuetify)
+Vue.use(Vuetify, {
+  iconfont: 'mdi' || 'md' || 'mdi' || 'fa' || 'fa4'
+})
+Vue.use(Vuelidate);
 
 Vue.config.productionTip = false;
 

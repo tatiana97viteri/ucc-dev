@@ -4,8 +4,8 @@
       <HelloWorld/>
       <places />
       <!-- <Experience/>  -->
-      <!-- <Carousel/>   
-      <Registro/> -->
+      <Carousel/>   
+      <Registro/>
       <Footers/>
 
   </div>
