@@ -53,7 +53,6 @@
                         slot-scope="{ hover }"
                         class="mx-auto img"
                         color="grey lighten-4"
-                        max-width="600" 
                         style="border-radius: 5px;"
                         src="https://images.pexels.com/photos/696295/pexels-photo-696295.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""
                     >

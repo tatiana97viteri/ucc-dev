@@ -3,7 +3,7 @@
       <Menu/>
       <HelloWorld/>
       <places />
-      <!-- <Experience/>  -->
+      <Experience/> 
       <Carousel/>   
       <Registro/>
       <Footers/>
@@ -15,7 +15,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Menu from './components/Menu.vue'
 import Registro from './components/Registro.vue'
-import Experience from './components/Experience.vue'
+// import Experience from './components/Experience.vue'
 import Footers from './components/Footers.vue'
 import Carousel from './components/Carousel.vue'
 import Places from './components/places.vue'
@@ -27,7 +27,7 @@ export default {
     HelloWorld,
     Menu,
     Registro,
-    Experience,
+    // Experience,
     Footers,
     Carousel,
     Places

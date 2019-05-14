@@ -33,7 +33,7 @@
                 trigger="hover">
                 <img slot="reference" src="https://images.pexels.com/photos/696295/pexels-photo-696295.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
               </el-popover> -->
-              <img @mouseover="show3 = true" @mouseleave="show3 = false" src="https://images.pexels.com/photos/696295/pexels-photo-696295.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                <img @mouseover="show3 = true" @mouseleave="show3 = false" src="https://images.pexels.com/photos/696295/pexels-photo-696295.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
                 <div class="mensaje" v-if="show3"> <span >Santuarios <br> Sitios culturales</span> </div>
             </el-col>
           </el-row>
@@ -79,11 +79,6 @@
 
 <script>
 export default {
-  // data() {
-  //     return {
-  //       visible: false
-  //     };
-  //   }
  data: () => ({
       show: false,
       show2: false,

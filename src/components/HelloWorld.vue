@@ -10,7 +10,7 @@
               <p>Este es un buen día para</p>
               <h1>UNA NUEVA EXPERIENCIA</h1>
               <p>Descubre los mejores lugares a tu alrededor</p>
-              <v-btn round color="blue" dark v-scroll-to="'#registrar'">Registrate</v-btn>
+              <v-btn round color="blue" dark v-scroll-to="'#registro'">Registrate</v-btn>
             </div>
           </div>
       </section>
